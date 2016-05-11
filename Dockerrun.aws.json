@@ -1,0 +1,17 @@
+{
+ "AWSEBDockerrunVersion": "1",
+ "Authentication": {
+   "Bucket": "codedeploy-dev.gohopscotch.com",
+   "Key": ".dockercfg.json"
+ },
+ "Image": {
+    "Name": "COMPANY_NAME/APP_NAME",
+    "Update": "true"
+  },
+ "Ports": [
+   {
+     "ContainerPort": "3000"
+   }
+ ],
+ "Logging": "/var/log"
+}
